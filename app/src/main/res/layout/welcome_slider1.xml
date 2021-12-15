@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F7F7F7"
+    >
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="409dp"
+        android:layout_gravity="center"
+        android:src="@drawable/checkstatusimage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25sp"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:text="Check Your Application Status "
+        android:textColor="@color/bloue"
+        android:textSize="22sp"
+        android:textStyle="bold|normal" />
+
+</LinearLayout>
